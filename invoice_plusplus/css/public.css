@@ -1,0 +1,341 @@
+body {
+    font-family: Calibri;
+    background-color: #12216D;
+    background-repeat: repeat-x;
+    margin: 0;
+    background-image: url(../assets/images/dotted_bg.php.png);
+}
+
+#pageContainer {
+    width: 70em;
+    margin: 0.75em auto;
+    background-color: white;
+    background-repeat: repeat;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    box-shadow: 2px 2px 2px ;
+    border-radius: 5px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+}
+
+#header h1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    float: left;
+    text-shadow: 0px 1px 2px #666;
+}
+
+#header h2 {
+    float: right;
+    margin-top: 1.75em;
+    margin-right: 1em;
+    font-style: italic;
+    text-shadow: 0px 1px 2px #666;
+}
+
+ul.contentNavLinks {
+    clear: both;
+    padding: 0.25em;
+    margin: 0;
+    margin-bottom: 1px;
+}
+
+ul.contentNavLinks li {
+    list-style: none;
+    display: inline;
+}
+
+ul.contentNavLinks li a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    background-image: url(../assets/images/darkGrain.jpg);
+}
+
+ul.contentNavLinks li a.selected, ul.contentNavLinks li a:hover {
+    background-image: url(../assets/images/grain.jpg);
+}
+
+.plusplus {
+    color: #00B1FF;
+}
+
+/*.loginLink {
+    float: right;
+}*/
+
+#contentAbout, #contentFeatures, #contentLogin, #contentPricingSignUp, #signUp, #contentContact {
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    background-image: url(../assets/images/grain.jpg);
+    height: 25em;
+}
+
+#contentPrivacy {
+    
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    background-image: url(../assets/images/grain.jpg);
+}
+
+#contentPrivacy h3, #contentContact h3 {
+    
+    padding-left: 8px;
+}
+
+#contentAbout p, #contentFeatures p, #contentLogin p, #contentPricingSignUp p, #signUp p, #contentPrivacy p, #contentContact p {
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#contentAbout p {
+    text-align: right;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+#contentAbout h1 {
+    margin: 0;
+    font-size: 5em;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: right;
+    float: right;
+}
+
+#contentFeatures h1 {
+    margin: 0;
+    font-size: 5em;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+#contentPricingSignUp h1 {
+    margin: 0;
+    font-size: 5em;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+}
+
+#contentPricingSignUp p {
+    text-align: left;
+    font-size: 2em;
+}
+
+#contentFeatures ul {
+    font-size: 2em;
+}
+
+#footer {
+    text-align: center;
+    clear: both;
+    padding: 0.25em;
+    color: black;
+    margin: 0 auto;
+    width: 25em;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#whyInvoice {
+    clear: both;
+    float: left;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    width: 20em;
+    background-color: #e8e7e7;
+    border-radius: 5px;
+}
+
+#whyInvoice h2 {
+    margin: 0;
+}
+
+.paperImage {
+    float: left;
+    margin: 1em;
+}
+
+#testimonial {
+    float: right;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 20em;
+    background-color: #e8e7e7;
+    border-radius: 5px;
+}
+
+#testimonial h2 {
+    text-align: right;
+    margin: 0;
+}
+
+#testimonial p {
+    text-align: right;
+}
+
+.loginForm {
+    background-color: #e8e7e7;
+    margin: 2em auto;
+    padding: 1em;
+    width: 30em;
+    border-radius: 5px;
+    border: black solid 1px;
+    display: block;
+}
+
+.loginForm h2 {
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.loginForm input.textfield {
+    margin: 0 auto;
+    display: block;
+    border: black solid 1px;
+    padding: 0.25em;
+}
+
+.loginForm input.loginButton {
+    margin: 0 auto;
+    display: block;
+    border: black solid 1px;
+    padding: 0.5em;
+}
+
+.forgotDetails {
+    text-align: center;
+}
+
+.forgotDetails a {
+    font-size: 0.75em;
+    font-style: italic;
+    text-decoration: none;
+    margin: 0;  
+}
+
+#signUpButton {
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 10em;
+}
+
+#signUpButton a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em; 
+    background-color: #3333ff;
+    padding: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    border: #000000 solid 1px;
+}
+
+.signUpForm {
+    background-color: #e8e7e7;
+    color: black;
+    margin: 2em auto;
+    padding: 1em;
+    width: 40em;
+    height: 17em;;
+    border-radius: 5px;
+    border: black solid 1px;
+    display: block;
+    font-size: 1em;
+}
+
+ul.leftSignUp {
+    padding: 0;
+    float: left;
+}
+
+ul.leftSignUp li {
+    list-style: none;
+}
+
+ul.leftSignUp li input, ul.rightSignUp li input {
+    border: #000000 solid 1px;
+}
+
+ul.leftSignUp li label {
+    width: 5em;
+    float: left;
+}
+
+ul.rightSignUp li input.signUpButton {
+    padding: 1em;
+    margin-top: 2.75em;
+    margin-right: 2.75em;
+}
+
+ul.rightSignUp {
+    padding: 0;
+    float: right;
+    width: 20em;
+}
+
+ul.rightSignUp li {
+    list-style: none;
+}
+
+ul.rightSignUp li label {
+    width: 7em;
+    float: left;
+}

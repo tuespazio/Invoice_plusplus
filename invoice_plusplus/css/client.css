@@ -1,0 +1,420 @@
+body {
+    font-family: Calibri;
+    /* background-color: #12216D;
+    background-repeat: repeat-x; */
+    margin: 0;
+    /* background-image: url(../assets/images/dotted_bg.php.png); */
+}
+
+a {
+
+    color: white;
+}
+
+a:visited {
+
+    color: white;
+}
+
+a:hover {
+
+    color: #99ffff;
+}
+
+#pageContainer {
+    width: 72em;
+    margin: 0.75em auto;
+    background-color: white;
+    background-repeat: repeat;
+    box-shadow: 2px 2px 2px ;
+    border-radius: 5px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-top-color: black;
+}
+
+#header {
+    margin: 0 auto;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#clientLogo {
+    float: left;
+    width: 25em;
+}
+
+#linkContainer {
+    clear: both;
+    margin: 0 auto;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+ul.navBar {
+    padding: 0.25em;
+    margin: 0;
+    margin-bottom: 1px;
+    float: left;
+}
+
+ul.navBar li {
+    display: inline;
+    list-style: none;
+}
+
+ul.navBar li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: #000000 solid 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    background-image: url(../assets/images/darkGrain.jpg);
+}
+
+ul.navBar li a:hover, ul.statsBoxLinks li a:hover, ul.navBar li a.selected, ul.statsBoxLinks li a.selected {
+    background-image: url(../assets/images/grain.jpg);
+}
+
+.searchBar {
+    float: right;
+    display: block;
+    margin-top: 0.75em;
+}
+
+.searchBar input {
+    border: #000000 solid 1px;
+}
+
+#invoice, #product, #client, #report, #admin {
+    clear: both;
+    background-image: url(../assets/images/grain.jpg);
+    border: #000000 solid 1px;
+    border-radius: 5px;
+}
+
+ul.invoiceLinks {
+    padding: 0.25em;
+    margin: 0;
+}
+
+ul.invoiceLinks li {
+    display: inline;
+    list-style: none;
+}
+
+ul.invoiceLinks li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+ul.reportLinks {
+    padding: 0.25em;
+    margin: 0;
+}
+
+ul.reportLinks li {
+    display: inline;
+    list-style: none;
+}
+
+ul.reportLinks li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+ul.clientLinks {
+    padding: 0.25em;
+    margin: 0;
+}
+
+ul.clientLinks li {
+    display: inline;
+    list-style: none;
+}
+
+ul.clientLinks li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+ul.productLinks {
+    padding: 0.25em;
+    margin: 0;
+}
+
+ul.productLinks li {
+    display: inline;
+    list-style: none;
+}
+
+ul.productLinks li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+ul.adminLinks {
+    padding: 0.25em;
+    margin: 0;
+}
+
+ul.adminLinks li {
+    display: inline;
+    list-style: none;
+}
+
+ul.adminLinks li a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+#contentDisplay {
+    margin: 1em;
+    border-radius: 5px;
+    border: #000000 solid 1px;
+}
+
+#createProduct form, #modifyProduct form, #createInvoice form, #mostRecentInvoice form, #infoInvoice form, #generateReport form, #changePassword form {
+
+    padding: 1em;
+    background-color: #e6e4e4;
+    border-radius: 5px;
+}
+
+#createProduct form input.textfield, #modifyProduct form input.textfield, #createInvoice form select, #createInvoice form input.textfield, #generateReport form select, #changePassword form input.textfield {
+
+    border: black solid 1px;
+}
+
+#createProduct form input.productCreateButton, input.productResetButton, #modifyProduct form input.productModifyButton, input.productModifyResetButton {
+
+    border: black solid 1px;
+    float: right;
+    margin-left: 1em;
+}
+
+#createInvoice input.invoiceCreateButton, input.newInvoice, input.saveNewInvoice, input.deleteInvoice, input.invoiceProductSubmit, #mostRecentInvoice input.printInvoice, #infoInvoice form input.payInvoice, input.printInvoice, #generateReport form input.generateReportButton, #changePassword input.newPasswordSubmitButton {
+
+    border: black solid 1px;
+    margin-left: 1em;
+}
+
+#modifyProduct, #modifyClient, #createClient, #deleteClient, #createProduct, #deleteProduct, #createInvoice, #mostRecentInvoice, #searchPage, #pendingInvoice, #infoInvoice, #generateReport, #processReport, #changePassword, #addUser, #deleteUser, #manageBusiness {
+
+    padding: 1em;
+}
+
+#modifyProduct h2, #createClient h2, #createProduct h2, #modifyClient h2, #deleteClient h2, #deleteProduct h2, #createInvoice h2, #mostRecentInvoice h2, #searchPage h2, #pendingInvoice h2, #infoInvoice h2, #generateReport h2, #manageBusiness h2, #changePassword h2, #addUser h2, #deleteUser h2 {
+
+    margin-top: 0;
+}
+
+#modifyProduct table, #modifyClient table, #deleteClient table, #deleteProduct table, #createInvoice table, #mostRecentInvoice table, #searchPage table, #pendingInvoice table, #infoInvoice table, #processReport table, #deleteUser table {
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#createInvoice table, #mostRecentInvoice table, #infoInvoice table {
+    
+    margin-top: 1em;
+    border: #000000 solid 1px;
+}
+
+table td, table th, table tr {
+    
+    border: #000000 solid 1px;
+    padding: 0.5em;
+}
+
+#productStats table td, #productStats table th, #productStats table tr {
+    
+    border: 0;
+}
+
+.noMargins {
+
+    margin-top: 0;
+    float: right;
+}
+
+.noMargins a {
+
+    text-decoration: none;
+    color: #00B1FF;
+}
+
+.noMargins a:hover {
+
+    text-decoration: none;
+    color: #3333ff;
+}
+
+#modifyProduct table tr:first-child:hover, #modifyClient table tr:first-child:hover, #deleteClient table tr:first-child:hover, #deleteProduct table tr:first-child:hover, #createInvoice table tr:first-child:hover, #pendingInvoice table tr:first-child:hover, #searchPage table tr:first-child:hover, #deleteUser table tr:first-child:hover {
+
+    background-color: #ffffff; 
+}
+
+#modifyProduct table tr:hover, #modifyClient table tr:hover, #deleteClient table tr:hover, #deleteProduct table tr:hover, #createInvoice table tr:hover, #pendingInvoice table tr:hover, #searchPage table tr:hover, #deleteUser table tr:hover {
+
+    background-color: #e6e4e4;
+}
+
+#productStats table {
+
+    width: 100%;
+}
+
+#numberProductStatsLink, #zeroStockStatsLink {
+
+    text-decoration: none;
+}
+
+ul.createClientFormLeft, ul.manageBusinessFormLeft {
+    padding: 0;
+    float: left;    
+}
+
+ul.createClientFormLeft li, ul.manageBusinessFormLeft li {
+    list-style: none;
+}
+
+ul.createClientFormLeft li input, ul.manageBusinessFormLeft li input, ul.createClientFormRight li input, ul.manageBusinessFormRight li input {
+    border: #000000 solid 1px;
+}
+
+ul.createClientFormLeft li label, ul.manageBusinessFormLeft li label {
+    width: 7em;
+    float: left;
+}
+
+ul.createClientFormRight, ul.manageBusinessFormRight {
+    padding: 0;
+    float: right;
+    width: 20em;
+}
+
+ul.createClientFormRight li, ul.manageBusinessFormRight li {
+    list-style: none;
+}
+
+ul.createClientFormRight li label, ul.manageBusinessFormRight li label {
+    width: 8em;
+    float: left;
+}
+
+ul.createClientFormRight li input.clientCreateButton, li input.clientModifyButton, li input.userAddButton, ul.manageBusinessFormRight li input.manageBusinessSubmitButton {
+
+    margin-left: 5em;
+}
+
+ul.createClientFormRight li input.clientResetButton, li input.userResetButton, ul.manageBusinessFormRight li input.manageBusinessResetButton {
+
+    margin-left: 1em;
+}
+
+ul.createClientFormRight li input.clientCreateButton, li input.clientModifyButton, li input.clientResetButton, li input.userAddButton, li input.userResetButton, ul.manageBusinessFormRight li input.manageBusinessSubmitButton, li input.manageBusinessResetButton {
+
+    border: black solid 1px;
+    margin-top: 1em;
+}
+
+#clearDiv {
+
+    clear: both;
+}
+
+#clientCreateFormDiv, #clientModifyFormDiv, #manageBusinessFormDiv, #addUserFormDiv {
+
+    margin: 0 auto;
+    width: 40em;
+}
+
+ul.invoiceAddressBlock {
+
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+ul.invoiceLogoDateBlock, ul.invoiceTotalsBlock {
+    
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+#invoiceBody {
+    
+    clear: both;
+}
+
+#createInvoice form.addToInvoiceForm {
+    
+    text-align: center;
+}
+
+.debugMode {
+    
+    color: #cc0000;
+}
+
+#logoImage img {
+    
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.invoiceLogo {
+   
+    height: 40px;
+}

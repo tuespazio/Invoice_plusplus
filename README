@@ -1,0 +1,20 @@
+Invoice++ , (c) 2011 Scott Girling
+
+
+I designed and developed this website for my final assignment at college. 
+It's not a fully working example of an invoice management system, but demonstrates PHP, MySQL and JavaScript coding using basic invoicing and business setup ideas. 
+This website was tested in Firefox 4 and may have some CSS and AJAX issues in older browsers.
+
+To use the website locally:
+
+PRESTEP) Move invoice_plusplus into htdocs (or where you're running your local webserver) and import invoice_plusplus.sql for database.
+
+1) Go to http://localhost/invoice_pluplus/
+
+2) Sign up.
+
+3) *COPY* the password that you are given after you click the sign up button.
+
+4) Login using the email you used to sign up and the password you were given.
+
+5) Play with site.
